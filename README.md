@@ -21,19 +21,19 @@
 
 2. Миграция данных в отдельные логические таблицы
 
-2.1 Создание справочника стоимости доставки в страны (shipping_country_rates).
+  2.1 Создание справочника стоимости доставки в страны (shipping_country_rates).
 
-2.2 Создание справочника тарифов доставки вендора по договору (shipping_agreement).
+  2.2 Создание справочника тарифов доставки вендора по договору (shipping_agreement).
 
-2.3 Создание справочника о типах доставки (shipping_transfer).
+  2.3 Создание справочника о типах доставки (shipping_transfer).
 
-2.4 Создание таблицы shipping_info, с данными уникальных доставок shippingid.
+  2.4 Создание таблицы shipping_info, с данными уникальных доставок shippingid.
 
-2.5 Создание таблицы статусов о доставке shipping_status.
+  2.5 Создание таблицы статусов о доставке shipping_status.
 
-#### Код миграции находится в migration_from_shipping.sql
+  #### Код миграции находится в migration_from_shipping.sql
 
 
 3. Создание представления shipping_datamart на основании готовых таблиц
 
-#### Создание представления shipping_datamart находится в shipping_datamart_creating_view.sql
+  #### Создание представления shipping_datamart находится в shipping_datamart_creating_view.sql
